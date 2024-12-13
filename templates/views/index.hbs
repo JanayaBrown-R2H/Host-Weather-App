@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="/images/jellyfish2.jpg">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <div class="main">
+        {{>header}}
+        <h2> Welcome, {{name}} </h2>
+        <p> Use this site to get your weather. </p>
+
+        <form action="none">
+            <input type="text" placeholder="address">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+
+    </div>
+    
+    {{>footer}}
+
+    <script src="./JS/app.js"></script>
+</body>
+</html>

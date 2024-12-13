@@ -1,0 +1,59 @@
+body {
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+
+footer {
+    background-color: slategray;
+    color: whitesmoke;
+    /* border-top:  1px solid slateblue; */
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: slategray;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.profile {
+    width: 25%;
+    border-radius: 10% 20%;
+}
+
+input {
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
